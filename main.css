@@ -1,0 +1,38 @@
+.experience-heading {
+    text-align: center;
+}
+
+
+.table1 {
+    margin: 0;
+    padding-left: 2rem;
+    z-index: 1;
+}
+
+.table1-item {
+
+}
+
+.table1-item-name {
+    
+}
+
+.table1-item-rating {
+    color: rgb(12, 114, 80);
+    font-weight: bold;
+}
+
+.table1-item-rating:hover {
+    color:rgb(24, 185, 99);
+    font-weight: bold;
+    animation: table1-rating-hover forwards 0.2s;
+}
+
+@keyframes table1-rating-hover {
+    from {
+        font-size: medium;
+    }
+    to {
+        font-size: larger;
+    }
+}
